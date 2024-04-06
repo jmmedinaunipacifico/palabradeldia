@@ -1,0 +1,14 @@
+<h1>LA PALABRA DEL DIA</h1>
+
+<app-casillas
+  [lapalabra]="palabra"
+  [lasletras]="letras"
+  [habilitar]="contador"
+  (error)="erronio($event)"
+></app-casillas>
+<button (click)="enviar()" class="enviar">Verificar</button>
+<h2>Realizado por:</h2>
+<span
+  >Janeyda Valencia Torres - Mauricio Medina Valencia - Todos los derechos
+  reservados &copy;
+</span>
