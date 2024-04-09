@@ -42,11 +42,11 @@ export class TableroComponent implements OnInit {
       }
     }else if (e === true){
       console.log('ganastes')
-      //window.location.reload()
+      window.location.reload()
     }else if (e === true){
-      if (this.contador == 5){
+      if (this.contador == )6{
         console.log('vuelve a intentarlo')
-        //window.location.reload()
+        window.location.reload()
       }else{
         console.log('sigue intentando a intentarlo')
       }
