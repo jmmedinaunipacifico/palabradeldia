@@ -44,7 +44,7 @@ export class TableroComponent implements OnInit {
       console.log('ganastes')
       window.location.reload()
     }else if (e === true){
-      if (this.contador == )6{
+      if (this.contador ==6 ){
         console.log('vuelve a intentarlo')
         window.location.reload()
       }else{
